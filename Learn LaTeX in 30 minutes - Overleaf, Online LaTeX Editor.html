@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><title>Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor</title><meta name="twitter:title" content="Learn LaTeX in 30 minutes"><meta name="og:title" content="Learn LaTeX in 30 minutes"><meta name="description" content="An online LaTeX editor that&#39;s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more."><meta itemprop="description" content="An online LaTeX editor that&#39;s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more."><meta itemprop="image" content="https://cdn.overleaf.com/img/ol-brand/overleaf_og_logo.png"><meta name="image" content="https://cdn.overleaf.com/img/ol-brand/overleaf_og_logo.png"><meta itemprop="name" content="Overleaf, the Online LaTeX Editor"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@overleaf"><meta name="twitter:description" content="An online LaTeX editor that&#39;s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more."><meta name="twitter:image" content="https://cdn.overleaf.com/img/ol-brand/overleaf_og_logo.png"><meta property="fb:app_id" content="400474170024644"><meta property="og:description" content="An online LaTeX editor that&#39;s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more."><meta property="og:image" content="https://cdn.overleaf.com/img/ol-brand/overleaf_og_logo.png"><meta property="og:type" content="website"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><link rel="icon" href="https://www.overleaf.com/favicon.ico"><link rel="icon" sizes="192x192" href="https://www.overleaf.com/touch-icon-192x192.png"><link rel="apple-touch-icon-precomposed" href="https://www.overleaf.com/apple-touch-icon-precomposed.png"><link rel="mask-icon" href="https://www.overleaf.com/mask-favicon.svg" color="#138A07"><script type="text/javascript" async="" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/recaptcha__zh_cn.js.下载"></script><script async="" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/analytics.js.下载"></script><script type="text/javascript">// Stop superfish from loading
+window.similarproducts = true</script><style>[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak  {display: none !important; display: none; }</style><link rel="stylesheet" href="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/style-b3f6ccf999d0d64e23f0.css" id="main-stylesheet"><link rel="alternate" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="en"><link rel="alternate" href="https://cs.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="cs"><link rel="alternate" href="https://es.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="es"><link rel="alternate" href="https://pt.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="pt"><link rel="alternate" href="https://fr.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="fr"><link rel="alternate" href="https://de.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="de"><link rel="alternate" href="https://sv.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="sv"><link rel="alternate" href="https://tr.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="tr"><link rel="alternate" href="https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="it"><link rel="alternate" href="https://cn.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="zh-CN"><link rel="alternate" href="https://no.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="no"><link rel="alternate" href="https://ru.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="ru"><link rel="alternate" href="https://da.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="da"><link rel="alternate" href="https://ko.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="ko"><link rel="alternate" href="https://ja.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" hreflang="ja"><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');</script><script type="text/javascript">ga('create', 'UA-112092690-1', 'overleaf.com');
+ga('send', 'pageview');</script><script type="text/javascript">window.csrfToken = "OKRCvJDR-HMfSBBvQ71Vc8xjVxwIBoZkArNc";
+//- Configure dynamically loaded assets (via webpack) to be downloaded from CDN
+//- See: https://webpack.js.org/guides/public-path/#on-the-fly
+window.baseAssetPath = "https://cdn.overleaf.com/"
+</script><script>window.sharelatex = {
+	siteUrl: 'https://www.overleaf.com',
+	wsUrl: '',
+};
+window.ab = {};
+window.user_id = '';
+window.ExposedSettings = JSON.parse('{"isOverleaf":true,"appName":"Overleaf","hasSamlFeature":true,"samlInitPath":"/saml/ukamf/init","siteUrl":"https://www.overleaf.com","emailConfirmationDisabled":false,"recaptchaSiteKeyV3":"6LfawooUAAAAACUFQPCs3LgBMRgD8NK-2ti2q1sD","recaptchaDisabled":{"invite":true,"register":false},"validRootDocExtensions":["tex","Rtex","ltx"]}');
+</script><script>window.sharelatex.algolia = {
+	app_id:'SK53GL4JLY',
+	api_key:'9ac63d917afab223adbd2cd09ad0eb17',
+	indexes:{"templates":"templates","institutions":"institutions","wiki":"learn-wiki","kb":"kb-wiki"}
+}
+</script><script>window.sharelatex.templates = {
+	user_id : '5395eb7aad1f29a88756c7f2',
+	cdnDomain : '',
+	indexName : ''
+}
+
+</script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style></head><body class="ng-scope"><div id="MathJax_Message" style="display: none;"></div><script src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/api.js.下载"></script><div class="g-recaptcha" id="recaptcha" data-sitekey="6LebiTwUAAAAAMuPyjA4pDA4jxPxPe2K9_ndL74Q" data-size="invisible" data-badge="inline"></div><nav class="navbar navbar-default navbar-main"><div class="container-fluid"><div class="navbar-header"><button class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed" ng-class="{active: !navCollapsed}" aria-label="Toggle Navigation"><i class="fa fa-bars" aria-hidden="true"></i></button><a class="navbar-brand" href="https://www.overleaf.com/" aria-label="Overleaf"></a></div><div class="navbar-collapse collapse" collapse="navCollapsed" style="height: 0px;"><ul class="nav navbar-nav navbar-right"><!-- loop over header_extras--><li class="dropdown subdued" dropdown=""><a class="dropdown-toggle" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Features &amp; Benefits<b class="caret"></b></a><ul class="dropdown-menu"><li><a href="https://www.overleaf.com/for/authors">For Writing</a></li><li><a href="https://www.overleaf.com/for/groups">For Groups</a></li><li><a href="https://www.overleaf.com/for/edu">For Teaching</a></li><li><a href="https://www.overleaf.com/for/universities">For Universities</a></li><li><a href="https://www.overleaf.com/for/publishers">For Publishers</a></li><li><a href="https://www.overleaf.com/for/enterprises">For Enterprises</a></li></ul></li><li class="subdued"><a class="subdued" href="https://www.overleaf.com/latex/templates">Templates</a></li><li class="subdued"><a class="subdued" href="https://www.overleaf.com/user/subscription/plans">Plans &amp; Pricing</a></li><li class="dropdown subdued" dropdown=""><a class="dropdown-toggle" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" dropdown-toggle="" aria-haspopup="true" aria-expanded="false">Help<b class="caret"></b></a><ul class="dropdown-menu"><li><a href="https://www.overleaf.com/learn">Documentation</a></li><li><a ng-controller="ContactModal" ,="" ng-click="contactUsModal()" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" class="ng-scope">Contact Us</a></li></ul></li><!-- logged out--><!-- register link--><li><a href="https://www.overleaf.com/register">Register</a></li><!-- login link--><li><a href="https://www.overleaf.com/login">Log In</a></li><!-- projects link and account menu--></ul></div></div></nav><div class="content content-page content-alt"><div class="container wiki"><div class="row template-page-header"><div class="col-md-8"></div></div><div class="row"><div class="col-xs-12 col-sm-9 col-sm-push-3 page"><div class="wiki ng-scope" ng-controller="SearchWikiController"><form class="project-search form-horizontal ng-pristine ng-valid" role="search"><div class="form-group has-feedback has-feedback-left"><div class="col-sm-12"><input class="form-control ng-pristine ng-untouched ng-valid ng-empty" type="text" ng-model="searchQueryText" ng-keyup="search()" placeholder="Search help library...."><i class="fa fa-search form-control-feedback-left" aria-hidden="true"></i><i class="fa fa-times form-control-feedback ng-hide" ng-click="clearSearchText()" style="cursor: pointer;" ng-show="searchQueryText.length &gt; 0" aria-hidden="true"></i><button class="sr-only ng-hide" type="button" ng-click="clearSearchText()" ng-show="searchQueryText.length &gt; 0">clear search</button></div></div></form><div class="row" role="region" aria-label="search results"><div class="col-md-12"><span class="sr-only ng-hide" ng-show="searchQueryText.length &gt; 0" aria-live="polite"><!-- ngIf: hits_total > config_hits_per_page --><!-- ngIf: hits_total <= config_hits_per_page --><span ng-if="hits_total &lt;= config_hits_per_page" class="ng-binding ng-scope">0 results for </span><!-- end ngIf: hits_total <= config_hits_per_page --></span><!-- ngRepeat: hit in hits --><!-- ngIf: !processingSearch && searchQueryText.length > 1 && hits.length === 0 --></div></div></div><div class="card row-spaced ng-scope" ng-controller="LearnController"><div class="page-header"><h1 ng-non-bindable="">Learn LaTeX in 30 minutes</h1></div><mathjax><span ng-non-bindable="" class="ng-scope"><p>In this guide, we hope to give you your first introduction to <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>. The guide does not require you to have any prior knowledge of <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>, but by the time you are finished, you will have written your first LaTeX document, and hopefully will have a good knowledge of some of the basic functions provided by <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>.
+</p>
+<table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#What_is_LaTeX.3F"><span class="tocnumber">1</span> <span class="toctext">What is LaTeX?</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Why_learn_LaTeX.3F"><span class="tocnumber">2</span> <span class="toctext">Why learn LaTeX?</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Writing_your_first_piece_of_LaTeX"><span class="tocnumber">3</span> <span class="toctext">Writing your first piece of LaTeX</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#The_preamble_of_a_document"><span class="tocnumber">4</span> <span class="toctext">The preamble of a document</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_a_title.2C_author_and_date"><span class="tocnumber">5</span> <span class="toctext">Adding a title, author and date</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_comments"><span class="tocnumber">6</span> <span class="toctext">Adding comments</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Bold.2C_italics_and_underlining"><span class="tocnumber">7</span> <span class="toctext">Bold, italics and underlining</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_images"><span class="tocnumber">8</span> <span class="toctext">Adding images</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Captions.2C_labels_and_references"><span class="tocnumber">8.1</span> <span class="toctext">Captions, labels and references</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Creating_lists_in_LaTeX"><span class="tocnumber">9</span> <span class="toctext">Creating lists in LaTeX</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Unordered_lists"><span class="tocnumber">9.1</span> <span class="toctext">Unordered lists</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Ordered_lists"><span class="tocnumber">9.2</span> <span class="toctext">Ordered lists</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_math_to_LaTeX"><span class="tocnumber">10</span> <span class="toctext">Adding math to LaTeX</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Basic_Formatting"><span class="tocnumber">11</span> <span class="toctext">Basic Formatting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Abstracts"><span class="tocnumber">11.1</span> <span class="toctext">Abstracts</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Paragraphs_and_newlines"><span class="tocnumber">11.2</span> <span class="toctext">Paragraphs and newlines</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Chapters_and_Sections"><span class="tocnumber">11.3</span> <span class="toctext">Chapters and Sections</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Creating_tables"><span class="tocnumber">12</span> <span class="toctext">Creating tables</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Creating_a_simple_table_in_LaTeX"><span class="tocnumber">12.1</span> <span class="toctext">Creating a simple table in LaTeX</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_borders"><span class="tocnumber">12.2</span> <span class="toctext">Adding borders</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Captions.2C_labels_and_references_2"><span class="tocnumber">12.3</span> <span class="toctext">Captions, labels and references</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Adding_a_Table_of_Contents"><span class="tocnumber">13</span> <span class="toctext">Adding a Table of Contents</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Downloading_your_finished_document"><span class="tocnumber">14</span> <span class="toctext">Downloading your finished document</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=1" title="Edit section: What is LaTeX?">edit</a>]</span> <span class="mw-headline" id="What_is_LaTeX.3F">What is <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>?</span></h1>
+<p><span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> (pronounced <i>LAY-tek</i> or <i>LAH-tek</i>) is a tool used to create professional-looking documents. It is based on the WYSIWYM (what you see is what you mean) idea, meaning you only have focus on the contents of your document and the computer will take care of the formatting. Instead of spacing out text on a page to control formatting, as with Microsoft Word or LibreOffice Writer, users can enter plain text and let <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> take care of the rest.
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=2" title="Edit section: Why learn LaTeX?">edit</a>]</span> <span class="mw-headline" id="Why_learn_LaTeX.3F">Why learn <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>?</span></h1>
+<p><span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> is used all over the world for scientific documents, books, as well as many other forms of publishing. Not only can it create beautifully typeset documents, but it allows users to very quickly tackle the more complicated parts of typesetting, such as inputting mathematics, creating tables of contents, referencing and creating bibliographies, and having a consistent layout across all sections. Due to the huge number of open source <i>packages</i> available (more on this later), the possibilities with <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> are endless. These <i>packages</i> allow users to do even more with <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>, such as add footnotes, draw schematics, create tables etc. 
+</p><p>One of the most important reasons people use <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> is that it separates the content of the document from the style. This means that once you have written the content of your document, we can change its appearance with ease. Similarly, you can create one style of document which can be used to standardise the appearance of many different documents. This allows scientific journals to create templates for submissions. These templates have a pre-made layout meaning that only the content needs to be added. In fact there are hundreds of <a rel="nofollow" class="external text" href="https://www.sharelatex.com/templates">templates</a> available for everything from CVs to slideshows.
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=3" title="Edit section: Writing your first piece of LaTeX">edit</a>]</span> <span class="mw-headline" id="Writing_your_first_piece_of_LaTeX">Writing your first piece of <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span></h1>
+<p>The first step is to create a new <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> project. You can do this on your own computer by creating a new <b><code>.tex</code></b> file, or else you can <a href="https://www.overleaf.com/learn/Creating_a_document_in_Overleaf" title="Creating a document in Overleaf" class="mw-redirect">start a new project in Overleaf</a>.
+Let's start with the simplest working example:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">documentclass</span><span class="sy0">{</span><span class="re9">article<span class="sy0">}</span>
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">document</span><span class="sy0">}</span>
+First document. This is a simple example, with no 
+extra parameters or packages included.
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Firstdocsmall.PNG" class="image"><img alt="Firstdocsmall.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Firstdocsmall.PNG" width="300" height="42"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>You can see that <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> has already taken care of the first piece of formatting for you, by indenting the first line of the paragraph. Let's have a close look at what each part of our code does.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/582dbc33f220531c2d4bda27/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%201&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>The first line of code declares the type of document, known as the <i>class</i>. The class controls the overall appearance of the document. Different types of documents will require different classes i.e. a CV/resume will require a different class than a scientific paper. In this case, the class is <b><code>article</code></b>, the simplest and most common <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> class. Other types of documents you may be working on may require different classes such as <b>book</b> or <b>report</b>.
+</p><p>After this, you write the content of our document, enclosed inside the <b><code>\begin{document}</code></b> and <b><code>\end{document}</code></b> tags. This is known as the <i>body</i> of the document. You can start writing here and make changes to the text if you wish. To see the result of these changes in the PDF you have to compile the document. To do this in Overleaf, simply hit <i><b>Recompile</b></i>. (You can also set your project to automatically recompile when you edit your files, by clicking on the small arrow next to the '<b>Recompile</b><i> button and set '<b>Auto Compile</b></i> to '<b>On</b><i>.)</i>
+</p><p>If you are using a basic text editor such as gedit, emacs, vim, sublime, notepad etc., you will have to compile the document manually. To do this, simply run <b><code>pdflatex &lt;your document&gt;</code></b> in your computers terminal/command line. See <a rel="nofollow" class="external text" href="https://en.wikibooks.org/wiki/LaTeX/Basics#Compilation">here</a> for more information on how to do this. 
+</p><p>If you are using a <a rel="nofollow" class="external text" href="https://en.wikibooks.org/wiki/LaTeX/Installation#Editors">dedicated LaTeX editor</a> such as TeXmaker or TeXworks, simply hit the <i><b>Recompile</b></i> button. Consult the programs documentation if you are unsure of where this is.
+</p><p>Now that you have learnt how to add content to our document, the next step is to give it a title. To do this, we must talk briefly about the <b>preamble</b>.
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=4" title="Edit section: The preamble of a document">edit</a>]</span> <span class="mw-headline" id="The_preamble_of_a_document"> The preamble of a document </span></h1>
+<p>In the previous example the text was entered after the <b><code>\begin{document}</code></b> command. Everything in your <b><code>.tex</code></b> file <i>before</i> this point is called the <b>preamble</b>. In the preamble you define the type of document you are writing, the language you are writing in, the <i>packages</i> you would like to use (more on this later) and several other elements. For instance, a normal document preamble would look like this:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">documentclass</span><span class="sy0">[</span><span class="re2">12pt, letterpaper</span><span class="sy0">]{</span><span class="re9">article<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">usepackage</span><span class="sy0">[</span><span class="re2">utf8</span>]{inputenc</span><span class="sy0">}</span></pre></div></div>
+</div>
+</div>
+<p></p>
+<p>Below a detailed description of each line:
+</p>
+<dl><dt><code>\documentclass[12pt, letterpaper]{article}</code>
+</dt><dd>As said before, this defines the type of document. Some additional parameters included in the square brackets brackets can be passed to the command. These parameters must be comma-separated. In the example, the extra parameters set the font size (<b><code>12pt</code></b>) and the paper size (<b><code>letterpaper</code></b>). Of course other font sizes (<b><code>9pt</code></b>, <b><code>11pt</code></b>, <b><code>12pt</code></b>) can be used, but if none is specified, the default size is <b><code>10pt</code></b>. As for the paper size other possible values are <b><code>a4paper</code></b> and <b><code>legalpaper</code></b>; see the article about <a href="https://www.overleaf.com/learn/Page_size_and_margins" title="Page size and margins">Page size and margins</a> for more details about this. 
+</dd></dl>
+<dl><dt><code>\usepackage[utf8]{inputenc}</code>
+</dt><dd>This is the encoding for the document. It can be omitted or changed to another encoding but utf-8 is recommended. Unless you specifically need another encoding, or if you are unsure about it, add this line to the preamble.
+</dd></dl>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=5" title="Edit section: Adding a title, author and date">edit</a>]</span> <span class="mw-headline" id="Adding_a_title.2C_author_and_date">Adding a title, author and date</span></h1>
+<p>To add a title, author and date to our document, you must add three lines to the <b>preamble</b> (NOT the main body of the document). These lines are
+</p>
+<dl><dt><code>\title{First document}</code>
+</dt><dd>This is the title.
+</dd></dl>
+<dl><dt><code>\author{Hubert Farnsworth}</code>
+</dt><dd>Here you put the name of the Author(s) and, as a optional parameter, you can add the next command:
+</dd></dl>
+<dl><dt><code>\thanks{funded by the Overleaf team}</code>
+</dt><dd>This can be added after the name of the autor, inside the braces of the <b><code>title</code></b> command. It will add a superscript and a footnote with the text inside the braces. Useful if you need to thank an institution in your article.
+</dd></dl>
+<dl><dt><code>\date{February 2014}</code>
+</dt><dd>You can enter the date manually or use the command <b><code>\today</code></b> so the date will be updated automatically at the time you compile your document
+</dd></dl>
+<p>With these lines added, your preamble should look something like this
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">documentclass</span><span class="sy0">[</span><span class="re2">12pt, letterpaper, twoside</span><span class="sy0">]{</span><span class="re9">article<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">usepackage</span><span class="sy0">[</span><span class="re2">utf8</span><span class="sy0">]{</span>inputenc<span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">title</span><span class="sy0">{</span>First document<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">author</span><span class="sy0">{</span>Hubert Farnsworth <span class="sy0">\</span><span class="kw1">thanks</span><span class="sy0">{</span>funded by the Overleaf team<span class="sy0">}}</span>
+<span class="sy0">\</span><span class="kw1">date</span>{February 2017</span><span class="sy0">}</span></pre></div></div>
+</div>
+</div>
+<p></p>
+<p>Now that you have given your document a title, author and date, you can print this information on the document with the <b><code>\maketitle</code></b> command. This should be included in the <b>body</b> of the document at the place you want the title to be printed.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">document</span><span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">maketitle</span>
+&nbsp;
+We have now added a title, author and date to our first <span class="sy0">\</span><span class="kw1">LaTeX</span><span class="sy0">{}</span> document!
+&nbsp;
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Learnlatex1.PNG" class="image"><img alt="Learnlatex1.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Learnlatex1.PNG" width="401" height="156"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/582dbeacf220531c2d4bdaaa/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%202&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=6" title="Edit section: Adding comments">edit</a>]</span> <span class="mw-headline" id="Adding_comments">Adding comments</span></h1>
+<p>As with any code you are writing, it can often be useful to include comments. Comments are pieces of text you can include in the document which will not be printed, and will not affect the document in any way. They are useful for organizing your work, taking notes, or commenting out lines/sections when debugging. To make a comment in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>, simply write a <b><code>%</code></b> symbol at the beginning of the line as shown below:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">document</span><span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">maketitle</span>
+&nbsp;
+We have now added a title, author and date to our first <span class="sy0">\</span><span class="kw1">LaTeX</span>{</span><span class="sy0">}</span> document!
+&nbsp;
+<span class="co1">% This line here is a comment. It will not be printed in the document.</span>
+&nbsp;
+<span class="re8">\end</span><span class="sy0">{</span><span class="re9"><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Learnlatex1.PNG" class="image"><img alt="Learnlatex1.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Learnlatex1.PNG" width="401" height="156"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a308db13712fef4e9deff7/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%203&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=7" title="Edit section: Bold, italics and underlining">edit</a>]</span> <span class="mw-headline" id="Bold.2C_italics_and_underlining">Bold, italics and underlining</span></h1>
+<p>We will now look at some simple text formatting commands.
+</p>
+<ul><li><b>Bold</b>: Bold text in LaTeX is written with the <b><code>\textbf{...}</code></b> command. 
+</li><li><i>Italics</i>: Italicised text in LaTeX is written with the <b><code>\textit{...}</code></b> command.
+</li><li><u>Underline</u>: Underlined text in LaTeX is written with the <b><code>\underline{...}</code></b> command.
+</li></ul>
+<p>An example of each of these in action is shown below:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">Some of the <span class="sy0">\</span><span class="kw1">textbf</span><span class="sy0">{</span><span class="re9">greatest<span class="sy0">}</span>
+discoveries in <span class="re12">\underline</span><span class="sy0">{</span>science<span class="sy0">}</span> 
+were made by <span class="sy0">\</span><span class="kw1">textbf</span><span class="sy0">{\</span><span class="kw1">textit</span>{accident}</span><span class="sy0">}</span>.</pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Biu1.png" class="image"><img alt="Biu1.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Biu1.png" width="300" height="53"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>Another very useful command is the <b><code>\emph{...}</code></b> command. What the <b><code>\emph</code></b> command actually does with its argument depends on the context - inside normal text the emphasized text is italicized, but this behaviour is reversed if used inside an italicized text- see example below:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">Some of the greatest <span class="sy0">\</span><span class="kw1">emph</span><span class="sy0">{</span><span class="re9">discoveries<span class="sy0">}</span> 
+in science 
+were made by accident.
+&nbsp;
+<span class="sy0">\</span><span class="kw1">textit</span><span class="sy0">{</span>Some of the greatest <span class="sy0">\</span><span class="kw1">emph</span><span class="sy0">{</span>discoveries<span class="sy0">}</span> 
+in science 
+were made by accident.<span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">textbf</span><span class="sy0">{</span>Some of the greatest <span class="sy0">\</span><span class="kw1">emph</span>{discoveries} 
+in science 
+were made by accident.</span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Biu5.png" class="image"><img alt="Biu5.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Biu5.png" width="300" height="107"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>Moreover, some packages, e.g. <a href="https://www.overleaf.com/learn/Beamer" title="Beamer">Beamer</a>, change the behaviour of <b><code>\emph</code></b> command.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30a6813712fef4e9df06b/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%204&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=8" title="Edit section: Adding images">edit</a>]</span> <span class="mw-headline" id="Adding_images">Adding images</span></h1>
+<p>We will now look at how to add images to a <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> document. On Overleaf, you will first have to <a href="https://www.overleaf.com/learn/Including_images_in_ShareLaTeX" title="Including images in ShareLaTeX" class="mw-redirect">upload the images</a>.
+</p><p>Below is a example on how to include a picture.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">documentclass</span><span class="sy0">{</span><span class="re9">article<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">usepackage</span><span class="sy0">{</span>graphicx<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">graphicspath</span><span class="sy0">{</span> <span class="sy0">{</span>images/<span class="sy0">}</span> <span class="sy0">}</span>
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">document</span><span class="sy0">}</span>
+The universe is immense and it seems to be homogeneous, 
+in a large scale, everywhere we look at.
+&nbsp;
+<span class="sy0">\</span><span class="kw1">includegraphics</span><span class="sy0">{</span>universe<span class="sy0">}</span>
+&nbsp;
+There's a picture of a galaxy above
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:InsertingImagesEx1.png" class="image"><img alt="InsertingImagesEx1.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/InsertingImagesEx1.png" width="300" height="113"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30b7413712fef4e9df0a8/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%205&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p><span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> can not manage images by itself, so you will need to use a <i>package</i>. Packages can be used to change the default look of your <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> document, or to allow more functionalities. In this case, you need to include an image in our document, so you should use the <b><code>graphicx</code></b> package. This package gives new commands, <b><code>\includegraphics{...}</code></b> and <b><code>\graphicspath{...}</code></b>. To use the <b><code>graphicx</code></b> package, include the following line in you preamble: <b><code>\usepackage{graphicx} </code></b>
+</p><p>The command <b><code>\graphicspath{ {images/} }</code></b> tells <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> that the images are kept in a folder named <i>images</i> under the current directory. 
+</p><p>The <b><code>\includegraphics{universe}</code></b> command is the one that actually included the image in the document. Here <i>universe</i> is the name of the file containing the image without the extension, then <i>universe.PNG</i> becomes <i>universe</i>. The file name of the image should not contain white spaces nor multiple dots. 
+</p><p>Note: <i>The file extension is allowed to be included, but it's a good idea to omit it. If the file extension is omitted it will prompt LaTeX to search for all the supported formats. It is also usually recommended to use lowercase letters for the file extension when uploading image files. For more details see the section about <a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Generating_high-res_and_low-res_images">generating high resolution and low resolution images</a>. </i>
+</p><p><br>
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=9" title="Edit section: Captions, labels and references">edit</a>]</span> <span class="mw-headline" id="Captions.2C_labels_and_references">Captions, labels and references</span></h2>
+<p>Images can be captioned, labelled and referenced by means of the <b><code>figure</code></b> environment as shown below:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">figure</span><span class="sy0">}[</span><span class="re2">h</span><span class="sy0">]</span>
+    <span class="sy0">\</span><span class="kw1">centering</span>
+    <span class="sy0">\</span><span class="kw1">includegraphics</span><span class="sy0">[</span><span class="re2">width=0.25\<span class="kw1">textwidth</span></span><span class="sy0">]{</span>mesh<span class="sy0">}</span>
+    <span class="sy0">\</span><span class="kw1">caption</span><span class="sy0">{</span>a nice plot<span class="sy0">}</span>
+    <span class="sy0">\</span><span class="kw1">label</span><span class="sy0">{</span>fig:mesh1<span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">figure</span><span class="sy0">}</span>
+&nbsp;
+As you can see in the figure <span class="sy0">\</span><span class="kw1">ref</span><span class="sy0">{</span>fig:mesh1<span class="sy0">}</span>, the 
+function grows near 0. Also, in the page <span class="re4">\pageref</span>{fig:mesh1</span><span class="sy0">}</span> 
+is the same example.</pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:InsertingImages.PNG" class="image"><img alt="InsertingImages.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/InsertingImages.PNG" width="300" height="116"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30c5613712fef4e9df0e8/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%206&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>There are three important commands in the example:
+</p>
+<ul><li><b><code>\caption{a nice plot}</code></b>: As you may expect this command sets the caption for the figure. If you create a list of figures this caption will be used there. You can place it above or below the figure.
+</li></ul>
+<ul><li><b><code>\label{fig:mesh1}</code></b>: If you need to refer the image within your document, set a label with this command. The label will number the image, and combined with the next command will allow you to reference it.
+</li></ul>
+<ul><li><b><code>\ref{fig:mesh1}</code></b>: This code will be substituted by the number corresponding to the referenced figure.
+</li></ul>
+<p>When placing images in a <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> document, we should always put them inside a <b><code>figure</code></b> environment or similar so that <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> will position the image in a way that fits in with the rest of your text.
+</p><p><i>Note: If you are using captions and references on your own computer, you will have to compile the document twice for the references to work. Overleaf will do this for you automatically.'</i>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=10" title="Edit section: Creating lists in LaTeX">edit</a>]</span> <span class="mw-headline" id="Creating_lists_in_LaTeX">Creating lists in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span></h1>
+<p>Lists are very simple to create in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>. You can create lists using different list <i>environments</i>. Environments are sections of our document that you want to present in a different way to the rest of the document. They start with a <b><code>\begin{...}</code></b> command and end with an <b><code>\end{...}</code></b> command.
+</p><p>There are two main different types of lists, <i>ordered</i> lists and <i>unordered</i> lists. Each will use a different environment.
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=11" title="Edit section: Unordered lists">edit</a>]</span> <span class="mw-headline" id="Unordered_lists"> Unordered lists </span></h2>
+<p>Unordered lists are produced by the <b><code>itemize</code></b> environment. Each entry must be preceded by the control sequence <b><code>\item</code></b> as shown below. 
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">itemize</span><span class="sy0">}</span>
+  <span class="sy0">\</span><span class="kw1">item</span> The individual entries are indicated with a black dot, a so-called bullet.
+  <span class="sy0">\</span><span class="kw1">item</span> The text in the entries may be of any length.
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">itemize</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Itemize.png" class="image"><img alt="Itemize.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Itemize.png" width="300" height="51"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>By default the individual entries are indicated with a black dot, so-called bullet. The text in the entries may be of any length.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/52fe74766a6237452e000088/download/zip&amp;templateName=Lists%20Examples&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=12" title="Edit section: Ordered lists">edit</a>]</span> <span class="mw-headline" id="Ordered_lists"> Ordered lists </span></h2>
+<p>Ordered list have the same syntax inside a different environment. We make ordered lists using the <b><code>enumerate</code></b> environment:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">enumerate</span><span class="sy0">}</span>
+  <span class="sy0">\</span><span class="kw1">item</span> This is the first entry in our list
+  <span class="sy0">\</span><span class="kw1">item</span> The list numbers increase with each entry we add
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">enumerate</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Enumerate.png" class="image"><img alt="Enumerate.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Enumerate.png" width="300" height="59"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>As with unordered lists, each entry must be preceded by the control sequence <b><code>\item</code></b>, which will automatically generate the number labelling the item. The enumerate labels consists of sequential numbers starting at one.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/52fe74766a6237452e000088/download/zip&amp;templateName=Lists%20Examples&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=13" title="Edit section: Adding math to LaTeX">edit</a>]</span> <span class="mw-headline" id="Adding_math_to_LaTeX">Adding math to <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span></h1>
+<p>One of the main advantages of <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> is the ease at which mathematical expressions can be written. <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> allows two writing modes for mathematical expressions: the <b>inline</b> mode and the <b>display</b> mode. The first one is used to write formulas that are part of a text. The second one is used to write expressions that are not part of a text or paragraph, and are therefore put on separate lines. 
+Let's see an example of the <b>inline</b> mode:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">In physics, the mass-energy equivalence is stated 
+by the equation <span class="re3">$E=mc^2$</span>, discovered in 1905 by Albert Einstein.</pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Einstein1.png" class="image"><img alt="Einstein1.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Einstein1.png" width="320" height="33"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>To put your equations in <i>inline</i> mode use one of these delimiters: <b><code>\( ... \)</code></b>, <b><code>$ ... $</code></b> or <b><code>\begin{math} ... \end{math}</code></b>. They all work and the choice is a matter of taste.
+</p><p>The <i>displayed</i> mode has two versions: numbered and unnumbered.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">The mass-energy equivalence is described by the famous equation
+&nbsp;
+<span class="sy0">\[</span><span class="re2"> E=mc^2 \</span><span class="sy0">]</span>
+&nbsp;
+discovered in 1905 by Albert Einstein. 
+In natural units (<span class="re3">$c = 1$</span>), the formula expresses the identity
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">equation</span><span class="sy0">}</span><span class="re1">
+E=m
+</span><span class="re8">\end</span><span class="sy0">{</span><span class="re7">equation</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Einstein2.png" class="image"><img alt="Einstein2.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Einstein2.png" width="320" height="86"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>To print your equations in <i>display</i> mode use one of these delimiters: <b><code>\[ ... \]</code></b>, <b><code>\begin{displaymath} ... \end{displaymath}</code></b> or <b><code>\begin{equation} ... \end{equation}</code></b>. <code>$$ ... $$</code> is <b><a rel="nofollow" class="external text" href="https://texfaq.org/FAQ-dolldoll">discouraged</a></b> as it can give inconsistent spacing, and may not work well with some math packages.
+</p><p>Important Note: <i><code>equation*</code> environment is provided by an external package, consult the <a href="https://www.overleaf.com/learn/Aligning_equations" title="Aligning equations" class="mw-redirect"><b>amsmath</b> article</a>.</i>
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/52ec4e44b43917a25a000e96/download/zip&amp;templateName=Math%20Expressions&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>Many math mode commands require the <b><code>amsmath</code></b> package, so be sure to include it when writing math. An example is shown below of some basic math mode commands.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">Subscripts in math mode are written as <span class="re3">$a_b$</span> and superscripts are written as <span class="re3">$a^b$</span>. These can be combined an nested to write expressions such as
+&nbsp;
+<span class="sy0">\[</span><span class="re2"> T^{<span class="re9">i_1 i_2 <span class="re12">\dots</span> i_p<span class="sy0">}</span>_<span class="sy0">{</span>j_1 j_2 <span class="re12">\dots</span> j_q<span class="sy0">}</span> = T(x^<span class="sy0">{</span>i_1<span class="sy0">}</span>,<span class="re12">\dots</span>,x^<span class="sy0">{</span>i_p<span class="sy0">}</span>,e_<span class="sy0">{</span>j_1<span class="sy0">}</span>,<span class="re12">\dots</span>,e_{j_q}) \</span><span class="sy0">]</span>
+&nbsp;
+We write integrals using <span class="re3">$\<span class="kw1">int</span>$</span> and fractions using <span class="re3">$\<span class="kw1">frac</span>{a}{b}$</span>. Limits are placed on integrals using superscripts and subscripts:
+&nbsp;
+<span class="sy0">\[</span><span class="re2"> \<span class="kw1">int</span>_0^1 <span class="sy0">\</span><span class="kw1">frac</span><span class="sy0">{</span>1<span class="sy0">}{</span>e^x<span class="sy0">}</span> =  <span class="sy0">\</span><span class="kw1">frac</span>{e-1}{e</span>} \</span><span class="sy0">]</span>
+&nbsp;
+Lower case Greek letters are written as <span class="re3">$<span class="re12">\omega</span>$</span> <span class="re3">$<span class="re12">\delta</span>$</span> etc. while upper case Greek letters are written as <span class="re3">$<span class="re12">\Omega</span>$</span> <span class="re3">$<span class="re12">\Delta</span>$</span>.
+&nbsp;
+Mathematical operators are prefixed with a backslash as <span class="re3">$<span class="re12">\sin</span>(<span class="re12">\beta</span>)$</span>, <span class="re3">$<span class="re12">\cos</span>(<span class="re12">\alpha</span>)$</span>, <span class="re3">$<span class="re12">\log</span>(x)$</span> etc.</pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Math.PNG" class="image"><img alt="Math.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Math.PNG" width="320" height="165"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30cfd13712fef4e9df123/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%207&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>The possibilities with math in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> are endless and it is impossible to list them all here. Be sure to check out our other articles on
+</p>
+<ul><li><a href="https://www.overleaf.com/learn/Mathematical_expressions" title="Mathematical expressions">Mathematical expressions</a>
+</li><li><a href="https://www.overleaf.com/learn/Subscripts_and_superscripts" title="Subscripts and superscripts">Subscripts and superscripts</a>
+</li><li><a href="https://www.overleaf.com/learn/Brackets_and_Parentheses" title="Brackets and Parentheses">Brackets and Parentheses</a>
+</li><li><a href="https://www.overleaf.com/learn/Fractions_and_Binomials" title="Fractions and Binomials">Fractions and Binomials</a>
+</li><li><a href="https://www.overleaf.com/learn/Aligning_equations_with_amsmath" title="Aligning equations with amsmath">Aligning Equations</a>
+</li><li><a href="https://www.overleaf.com/learn/Operators" title="Operators">Operators</a>
+</li><li><a href="https://www.overleaf.com/learn/Spacing_in_math_mode" title="Spacing in math mode">Spacing in math mode</a>
+</li><li><a href="https://www.overleaf.com/learn/Integrals,_sums_and_limits" title="Integrals, sums and limits">Integrals, sums and limits</a>
+</li><li><a href="https://www.overleaf.com/learn/Display_style_in_math_mode" title="Display style in math mode">Display style in math mode</a>
+</li><li><a href="https://www.overleaf.com/learn/List_of_Greek_letters_and_math_symbols" title="List of Greek letters and math symbols">List of Greek letters and math symbols</a>
+</li><li><a href="https://www.overleaf.com/learn/Mathematical_fonts" title="Mathematical fonts">Mathematical fonts</a>
+</li></ul>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=14" title="Edit section: Basic Formatting">edit</a>]</span> <span class="mw-headline" id="Basic_Formatting">Basic Formatting</span></h1>
+<p>We will now look at how to write abstracts, as well as how to format a <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> document into different chapters, sections and paragraphs.
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=15" title="Edit section: Abstracts">edit</a>]</span> <span class="mw-headline" id="Abstracts">Abstracts</span></h2>
+<p>In scientific documents it's a common practice to include a brief overview of the main subject of the paper. In <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> there's the <b><code>abstract</code></b> environment for this. The <b><code>abstract</code></b>  environment will put the text in a special format at the top of your document.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">document</span><span class="sy0">}</span>
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">abstract</span><span class="sy0">}</span>
+This is a simple paragraph at the beginning of the 
+document. A brief introduction about the main subject.
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">abstract</span><span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Abstractsmall.PNG" class="image"><img alt="Abstractsmall.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Abstractsmall.PNG" width="300" height="54"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30dd713712fef4e9df14e/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%208&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=16" title="Edit section: Paragraphs and newlines">edit</a>]</span> <span class="mw-headline" id="Paragraphs_and_newlines">Paragraphs and newlines</span></h2>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">document</span><span class="sy0">}</span>
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">abstract</span><span class="sy0">}</span>
+This is a simple paragraph at the beginning of the 
+document. A brief introduction about the main subject.
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">abstract</span><span class="sy0">}</span>
+&nbsp;
+Now that we have written our abstract, we can begin writing our first paragraph.
+&nbsp;
+This line will start a second Paragraph.
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Abstractnonewline.PNG" class="image"><img alt="Abstractnonewline.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Abstractnonewline.PNG" width="300" height="87"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30dd713712fef4e9df14e/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%208&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>When writing the contents of your document, if you need to start a new paragraph you must hit the "Enter" key twice (to insert a double blank line). Notice that <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> automatically indents paragraphs.
+</p><p>To start a new line without actually starting a new paragraph insert a <i>break line</i> point, this can be done by <b><code>\\</code></b> (a double backslash as in the example) or the <b><code>\newline</code></b> command. 
+</p><p>Care should be taken that multiple <code>\\</code> or <code>\newline</code>s are not used to "simulate" paragraphs with larger spacing between them, as this can interfere with <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span>'s typesetting algorithms. The recommended method to do so is to keep using double blank lines to create new paragraphs without any <code>\\</code>, and then add <b><code>\usepackage{parskip}</code></b> to the preamble.
+</p><p>You can find more information in the <a href="https://www.overleaf.com/learn/Paragraphs_and_new_lines" title="Paragraphs and new lines">Paragraphs and new lines</a> article.
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=17" title="Edit section: Chapters and Sections">edit</a>]</span> <span class="mw-headline" id="Chapters_and_Sections">Chapters and Sections</span></h2>
+<p>Commands to organize a document vary depending on the document type, the simplest form of organization is the sectioning, available in all formats.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">chapter</span><span class="sy0">{</span><span class="re9">First Chapter<span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">section</span><span class="sy0">{</span>Introduction<span class="sy0">}</span>
+&nbsp;
+This is the first section.
+&nbsp;
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+&nbsp;
+<span class="sy0">\</span><span class="kw1">section</span><span class="sy0">{</span>Second Section<span class="sy0">}</span>
+&nbsp;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+&nbsp;
+<span class="sy0">\</span><span class="kw1">subsection</span><span class="sy0">{</span>First Subsection<span class="sy0">}</span>
+Praesent imperdietmi nec ante. Donec ullamcorper, felis non sodales...
+&nbsp;
+<span class="sy0">\</span><span class="kw1">section</span>*{Unnumbered Section</span><span class="sy0">}</span>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem</pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Sections1.PNG" class="image"><img alt="Sections1.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Sections1.PNG" width="300" height="312"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a30e7b13712fef4e9df182/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%209&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p>The command <b><code>\section{}</code></b> marks the beginning of a new section, inside the braces is set the title. Section numbering is automatic and can be disabled by including a <b><code>*</code></b> in the section command as <b><code>\section*{}</code></b>. We can also have <b><code>\subsection{}</code></b>s, and indeed <b><code>\subsubsection{}</code></b>s. The basic levels of depth are listed below:
+</p>
+<table class="wikitable">
+<tbody><tr>
+<td> -1 </td>
+<td> <b><code>\part{part}</code></b>
+</td></tr>
+<tr>
+<td> 0 </td>
+<td> <b><code>\chapter{chapter}</code></b>
+</td></tr>
+<tr>
+<td> 1  </td>
+<td> <b><code>\section{section}</code></b>
+</td></tr>
+<tr>
+<td> 2  </td>
+<td> <b><code>\subsection{subsection}</code></b>
+</td></tr>
+<tr>
+<td> 3  </td>
+<td> <b><code>\subsubsection{subsubsection}</code></b>
+</td></tr>
+<tr>
+<td> 4  </td>
+<td> <b><code>\paragraph{paragraph}</code></b>
+</td></tr>
+<tr>
+<td> 5  </td>
+<td> <b><code>\subparagraph{subparagraph}</code></b>
+</td></tr></tbody></table>
+<p>Note that <b><code>\part</code></b> and <b><code>\chapter</code></b> are only available in <i>report</i> and <i>book</i> document classes.
+</p><p>For a more complete discussion about the document structure see the <a href="https://www.overleaf.com/learn/Sections_and_chapters" title="Sections and chapters">article about sections and chapters</a>.
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=18" title="Edit section: Creating tables">edit</a>]</span> <span class="mw-headline" id="Creating_tables">Creating tables</span></h1>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=19" title="Edit section: Creating a simple table in LaTeX">edit</a>]</span> <span class="mw-headline" id="Creating_a_simple_table_in_LaTeX">Creating a simple table in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></span></h2>
+<p>Below you can see the simplest working example of a table
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">center</span><span class="sy0">}</span>
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}{</span> c c c <span class="sy0">}</span>
+ cell1 <span class="sy0">&amp;</span> cell2 <span class="sy0">&amp;</span> cell3 <span class="sy0">\\</span> 
+ cell4 <span class="sy0">&amp;</span> cell5 <span class="sy0">&amp;</span> cell6 <span class="sy0">\\</span>  
+ cell7 <span class="sy0">&amp;</span> cell8 <span class="sy0">&amp;</span> cell9    
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">center</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:TablesEx1.png" class="image"><img alt="TablesEx1.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/TablesEx1.png" width="300" height="160"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>The <b><code>tabular</code></b> environment is the default <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> method to create tables. You must specify a parameter to this environment, in this case <b><code>{c c c}</code></b>. This tells <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> that there will be three columns and that the text inside each one of them must be centred. You can also use <b><code>r</code></b> to align the text to the right and <b><code>l</code></b> for left alignment. The alignment symbol <b><code>&amp;</code></b> is used to specify the breaks in the table entries. There must always be one less alignment symbol in each line than the number of columns. To go to the next line of your table, we use the <i>new line</i> command <b><code>\\</code></b>. We wrap the entire table inside the <b><code>center</code></b> environment so that it will appear in the center of the page.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a3101d13712fef4e9df258/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%2010&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=20" title="Edit section: Adding borders">edit</a>]</span> <span class="mw-headline" id="Adding_borders">Adding borders</span></h2>
+<p>The <i>tabular</i> environment is more flexible, you can put separator lines in between each column.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">center</span><span class="sy0">}</span>
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}{</span> |c|c|c| <span class="sy0">}</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ cell1 <span class="sy0">&amp;</span> cell2 <span class="sy0">&amp;</span> cell3 <span class="sy0">\\</span> 
+ cell4 <span class="sy0">&amp;</span> cell5 <span class="sy0">&amp;</span> cell6 <span class="sy0">\\</span> 
+ cell7 <span class="sy0">&amp;</span> cell8 <span class="sy0">&amp;</span> cell9 <span class="sy0">\\</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">center</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:TablesEx2.png" class="image"><img alt="TablesEx2.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/TablesEx2.png" width="300" height="149"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>You can add borders using the horizontal line command <b><code>\hline</code></b> and the vertical line parameter <b><code>|</code></b>.
+</p>
+<ul><li><b><code>{ |c|c|c| }</code></b>: This declares that three columns, separated by a vertical line, are going to be used in the table. The <b><code>|</code></b> symbol specifies that these columns should be separated by a vertical line.
+</li></ul>
+<ul><li><b><code>\hline</code></b>: This will insert  a horizontal line. We have included horizontal lines at the top and bottom of the table here. There is no restriction on the number of times you can use <b><code>\hline</code></b>.
+</li></ul>
+<p>Below you can see a second example.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="re8">\begin</span><span class="sy0">{</span><span class="re9"><span class="re7">center</span><span class="sy0">}</span>
+ <span class="re8">\begin</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}{</span>||c c c c||<span class="sy0">}</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ Col1 <span class="sy0">&amp;</span> Col2 <span class="sy0">&amp;</span> Col2 <span class="sy0">&amp;</span> Col3 <span class="sy0">\\</span> <span class="sy0">[</span><span class="re2">0.5ex</span><span class="sy0">]</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span><span class="sy0">\</span><span class="kw1">hline</span>
+ 1 <span class="sy0">&amp;</span> 6 <span class="sy0">&amp;</span> 87837 <span class="sy0">&amp;</span> 787 <span class="sy0">\\</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ 2 <span class="sy0">&amp;</span> 7 <span class="sy0">&amp;</span> 78 <span class="sy0">&amp;</span> 5415 <span class="sy0">\\</span>
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ 3 <span class="sy0">&amp;</span> 545 <span class="sy0">&amp;</span> 778 <span class="sy0">&amp;</span> 7507 <span class="sy0">\\</span>
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ 4 <span class="sy0">&amp;</span> 545 <span class="sy0">&amp;</span> 18744 <span class="sy0">&amp;</span> 7560 <span class="sy0">\\</span>
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ 5 <span class="sy0">&amp;</span> 88 <span class="sy0">&amp;</span> 788 <span class="sy0">&amp;</span> 6344 <span class="sy0">\\</span> <span class="sy0">[</span><span class="re2">1ex</span><span class="sy0">]</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">center</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:TablesEx3.png" class="image"><img alt="TablesEx3.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/TablesEx3.png" width="300" height="192"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>Creating tables in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> can be a bit tricky sometimes, so you may want to use the <a rel="nofollow" class="external text" href="https://www.tablesgenerator.com/">TablesGenerator.com</a> online tool to export <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span> code for tabulars. The <i>File &gt; Paste table data</i> option lets you copy and paste data from spreadsheet applications.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a3101d13712fef4e9df258/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%2010&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=21" title="Edit section: Captions, labels and references">edit</a>]</span> <span class="mw-headline" id="Captions.2C_labels_and_references_2">Captions, labels and references</span></h2>
+<p>You can caption and reference tables in much the same way as images. The only difference is that instead of the <b><code>figure</code></b> environment, you use the <b><code>table</code></b> environment.
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1">Table <span class="sy0">\</span><span class="kw1">ref</span><span class="sy0">{</span><span class="re9">table:data} is an example of referenced \<span class="kw1">LaTeX</span><span class="sy0">{}</span> elements.
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">table</span><span class="sy0">}[</span><span class="re2">h!</span><span class="sy0">]</span>
+<span class="sy0">\</span><span class="kw1">centering</span>
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}{</span>||c c c c||<span class="sy0">}</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+ Col1 <span class="sy0">&amp;</span> Col2 <span class="sy0">&amp;</span> Col2 <span class="sy0">&amp;</span> Col3 <span class="sy0">\\</span> <span class="sy0">[</span><span class="re2">0.5ex</span><span class="sy0">]</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span><span class="sy0">\</span><span class="kw1">hline</span>
+ 1 <span class="sy0">&amp;</span> 6 <span class="sy0">&amp;</span> 87837 <span class="sy0">&amp;</span> 787 <span class="sy0">\\</span> 
+ 2 <span class="sy0">&amp;</span> 7 <span class="sy0">&amp;</span> 78 <span class="sy0">&amp;</span> 5415 <span class="sy0">\\</span>
+ 3 <span class="sy0">&amp;</span> 545 <span class="sy0">&amp;</span> 778 <span class="sy0">&amp;</span> 7507 <span class="sy0">\\</span>
+ 4 <span class="sy0">&amp;</span> 545 <span class="sy0">&amp;</span> 18744 <span class="sy0">&amp;</span> 7560 <span class="sy0">\\</span>
+ 5 <span class="sy0">&amp;</span> 88 <span class="sy0">&amp;</span> 788 <span class="sy0">&amp;</span> 6344 <span class="sy0">\\</span> <span class="sy0">[</span><span class="re2">1ex</span><span class="sy0">]</span> 
+ <span class="sy0">\</span><span class="kw1">hline</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">tabular</span><span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">caption</span><span class="sy0">{</span>Table to test captions and labels<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">label</span><span class="sy0">{</span>table:data<span class="sy0">}</span>
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">table</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:Ourtablelabel.PNG" class="image"><img alt="Ourtablelabel.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Ourtablelabel.PNG" width="300" height="166"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a3101d13712fef4e9df258/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%2010&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p><p><i>Note: If you are using captions and references on your own computer, you will have to compile the document twice for the references to work. Overleaf will do this for you automatically.'</i>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=22" title="Edit section: Adding a Table of Contents">edit</a>]</span> <span class="mw-headline" id="Adding_a_Table_of_Contents">Adding a Table of Contents</span></h1>
+<p>To create the table of contents is straightforward, the command <b><code>\tableofcontents</code></b> does all the work for you:
+</p>
+<p>
+</p><div class="example">
+<div class="code">
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="latex source-latex"><pre class="de1"><span class="sy0">\</span><span class="kw1">documentclass</span><span class="sy0">{</span><span class="re9">article<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">usepackage</span><span class="sy0">[</span><span class="re2">utf8</span><span class="sy0">]{</span>inputenc<span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">title</span><span class="sy0">{</span>Sections and Chapters<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">author</span><span class="sy0">{</span>Gubert Farnsworth<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">date</span><span class="sy0">{</span> <span class="sy0">}</span>
+&nbsp;
+<span class="re8">\begin</span><span class="sy0">{</span><span class="re7">document</span><span class="sy0">}</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">maketitle</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">tableofcontents</span>
+&nbsp;
+<span class="sy0">\</span><span class="kw1">section</span><span class="sy0">{</span>Introduction<span class="sy0">}</span>
+&nbsp;
+This is the first section.
+&nbsp;
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+&nbsp;
+<span class="re12">\addcontentsline</span><span class="sy0">{</span>toc<span class="sy0">}{</span>section<span class="sy0">}{</span>Unnumbered Section<span class="sy0">}</span>
+<span class="sy0">\</span><span class="kw1">section</span>*<span class="sy0">{</span>Unnumbered Section<span class="sy0">}</span>
+&nbsp;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+&nbsp;
+<span class="sy0">\</span><span class="kw1">section</span><span class="sy0">{</span>Second Section<span class="sy0">}</span>
+&nbsp;
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+&nbsp;
+<span class="re8">\end</span><span class="sy0">{</span><span class="re7">document</span></span><span class="sy0">}</span></pre></div></div>
+</div>
+<div class="output">
+<p><a href="https://www.overleaf.com/learn/File:TableOfContentsEx1.png" class="image"><img alt="TableOfContentsEx1.png" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/TableOfContentsEx1.png" width="300" height="318"></a>
+</p>
+</div>
+</div>
+<p></p>
+<p>Sections, subsections and chapters are automatically included in the table of contents. To manually add entries, for example when you want an unnumbered section, use the command <b><code>\addcontentsline</code></b> as shown in the example.
+</p><p><a rel="nofollow" class="external text" href="https://www.sharelatex.com/project/new/template?zipUrl=/project/58a3103d13712fef4e9df25b/download/zip&amp;templateName=Learn%20LaTeX%20in%2020%20minutes:%20Part%2011&amp;compiler=pdflatex"><i class="fa fa-share"></i>&nbsp;&nbsp;Open an example in Overleaf</a>
+</p>
+<h1><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Learn_LaTeX_in_30_minutes&amp;action=edit&amp;section=23" title="Edit section: Downloading your finished document">edit</a>]</span> <span class="mw-headline" id="Downloading_your_finished_document">Downloading your finished document</span></h1>
+<p>You can download your finished PDF from the left hand menu as above by clicking <i>PDF</i>. There is also the quicker option of clicking the <i>Download PDF</i> button on your PDF viewer as shown below.
+</p><p><a href="https://www.overleaf.com/learn/File:Downloadpdf.PNG" class="image"><img alt="Downloadpdf.PNG" src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/Downloadpdf.PNG" width="300" height="75"></a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1011/1000000
+Preprocessor generated node count: 2954/1000000
+Post-expand include size: 23652/2097152 bytes
+Template argument size: 3076/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key learn-mw_:pcache:idhash:1528-0!*!0!!en!2!* and timestamp 20200210174841 -->
+</span></mathjax></div></div><div class="col-xs-12 col-sm-3 col-sm-pull-9 contents" ng-non-bindable=""><ul><li> <a href="https://www.overleaf.com/learn/Main_Page" title="Main Page">Documentation Home</a>
+</li><li> <a href="https://www.overleaf.com/learn/Learn_LaTeX_in_30_minutes" title="Learn LaTeX in 30 minutes">Learn LaTeX in 30 minutes</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=1" title="Edit section: Overleaf guides">edit</a>]</span> <span class="mw-headline" id="Overleaf_guides"> Overleaf guides </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Kb/Creating_a_document_in_Overleaf" title="Kb/Creating a document in Overleaf">Creating a document in Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Uploading_a_project" title="Kb/Uploading a project">Uploading a project</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Copying_a_project" title="Kb/Copying a project">Copying a project</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Creating_a_project_from_a_template" title="Kb/Creating a project from a template">Creating a project from a template</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Including_images_in_ShareLaTeX" title="Kb/Including images in ShareLaTeX" class="mw-redirect">Including images in Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Exporting_your_work_from_ShareLaTeX" title="Kb/Exporting your work from ShareLaTeX" class="mw-redirect">Exporting your work from Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Working_Offline_in_Overleaf_v2" title="Kb/Working Offline in Overleaf v2" class="mw-redirect">Working offline in Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Track_Changes_in_Overleaf_v2" title="Kb/Track Changes in Overleaf v2" class="mw-redirect">Using Track Changes in Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Using_bibliographies_in_ShareLaTeX" title="Kb/Using bibliographies in ShareLaTeX" class="mw-redirect">Using bibliographies in Overleaf</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Sharing_your_work_with_others" title="Kb/Sharing your work with others" class="mw-redirect">Sharing your work with others</a>
+</li><li> <a href="https://www.overleaf.com/learn/Using_the_History_feature" title="Using the History feature">Using the History feature</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Debugging_Compilation_timeout_errors" title="Kb/Debugging Compilation timeout errors" class="mw-redirect">Debugging Compilation timeout errors</a>
+</li><li> <a href="https://www.overleaf.com/learn/Kb/Knowledge_Base" title="Kb/Knowledge Base" class="mw-redirect">How-to guides</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=2" title="Edit section: LaTeX Basics">edit</a>]</span> <span class="mw-headline" id="LaTeX_Basics"> LaTeX Basics </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Creating_a_document_in_LaTeX" title="Creating a document in LaTeX">Creating your first LaTeX document</a>
+</li><li> <a href="https://www.overleaf.com/learn/Choosing_a_LaTeX_Compiler" title="Choosing a LaTeX Compiler">Choosing a LaTeX Compiler</a>
+</li><li> <a href="https://www.overleaf.com/learn/Paragraphs_and_new_lines" title="Paragraphs and new lines">Paragraphs and new lines</a>
+</li><li> <a href="https://www.overleaf.com/learn/Bold,_italics_and_underlining" title="Bold, italics and underlining">Bold, italics and underlining</a>
+</li><li> <a href="https://www.overleaf.com/learn/Lists" title="Lists">Lists</a>
+</li><li> <a href="https://www.overleaf.com/learn/Errors" title="Errors">Errors</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=3" title="Edit section: Mathematics">edit</a>]</span> <span class="mw-headline" id="Mathematics"> Mathematics </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Mathematical_expressions" title="Mathematical expressions">Mathematical expressions</a>
+</li><li> <a href="https://www.overleaf.com/learn/Subscripts_and_superscripts" title="Subscripts and superscripts">Subscripts and superscripts</a>
+</li><li> <a href="https://www.overleaf.com/learn/Brackets_and_Parentheses" title="Brackets and Parentheses">Brackets and Parentheses</a>
+</li><li> <a href="https://www.overleaf.com/learn/Matrices" title="Matrices">Matrices</a>
+</li><li> <a href="https://www.overleaf.com/learn/Fractions_and_Binomials" title="Fractions and Binomials">Fractions and Binomials</a>
+</li><li> <a href="https://www.overleaf.com/learn/Aligning_equations" title="Aligning equations" class="mw-redirect">Aligning Equations</a>
+</li><li> <a href="https://www.overleaf.com/learn/Operators" title="Operators">Operators</a>
+</li><li> <a href="https://www.overleaf.com/learn/Spacing_in_math_mode" title="Spacing in math mode">Spacing in math mode</a>
+</li><li> <a href="https://www.overleaf.com/learn/Integrals,_sums_and_limits" title="Integrals, sums and limits">Integrals, sums and limits</a>
+</li><li> <a href="https://www.overleaf.com/learn/Display_style_in_math_mode" title="Display style in math mode">Display style in math mode</a>
+</li><li> <a href="https://www.overleaf.com/learn/List_of_Greek_letters_and_math_symbols" title="List of Greek letters and math symbols">List of Greek letters and math symbols</a>
+</li><li> <a href="https://www.overleaf.com/learn/Mathematical_fonts" title="Mathematical fonts">Mathematical fonts</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=4" title="Edit section: Figures and tables">edit</a>]</span> <span class="mw-headline" id="Figures_and_tables"> Figures and tables </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Inserting_Images" title="Inserting Images">Inserting Images</a>
+</li><li> <a href="https://www.overleaf.com/learn/Tables" title="Tables">Tables</a>
+</li><li> <a href="https://www.overleaf.com/learn/Positioning_images_and_tables" title="Positioning images and tables">Positioning Images and Tables</a>
+</li><li> <a href="https://www.overleaf.com/learn/Lists_of_tables_and_figures" title="Lists of tables and figures">Lists of Tables and Figures</a>
+</li><li> <a href="https://www.overleaf.com/learn/Picture_environment" title="Picture environment">Drawing Diagrams Directly in LaTeX</a>
+</li><li> <a href="https://www.overleaf.com/learn/TikZ_package" title="TikZ package">TikZ package</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=5" title="Edit section: References and Citations">edit</a>]</span> <span class="mw-headline" id="References_and_Citations"> References and Citations </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Bibliography_management_in_LaTeX" title="Bibliography management in LaTeX">Bibliography management in LaTeX</a>
+</li><li> <a href="https://www.overleaf.com/learn/Bibliography_management_in_LaTeX" title="Bibliography management in LaTeX">Bibliography management with biblatex</a>
+</li><li> <a href="https://www.overleaf.com/learn/Biblatex_bibliography_styles" title="Biblatex bibliography styles">Biblatex bibliography styles</a>
+</li><li> <a href="https://www.overleaf.com/learn/Biblatex_citation_styles" title="Biblatex citation styles">Biblatex citation styles</a>
+</li><li> <a href="https://www.overleaf.com/learn/Bibliography_management_with_natbib" title="Bibliography management with natbib">Bibliography management with natbib</a>
+</li><li> <a href="https://www.overleaf.com/learn/Natbib_bibliography_styles" title="Natbib bibliography styles">Natbib bibliography styles</a>
+</li><li> <a href="https://www.overleaf.com/learn/Natbib_citation_styles" title="Natbib citation styles">Natbib citation styles</a>
+</li><li> <a href="https://www.overleaf.com/learn/Bibliography_management_with_bibtex" title="Bibliography management with bibtex">Bibliography management with bibtex</a>
+</li><li> <a href="https://www.overleaf.com/learn/Bibtex_bibliography_styles" title="Bibtex bibliography styles">Bibtex bibliography styles</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=6" title="Edit section: Languages">edit</a>]</span> <span class="mw-headline" id="Languages"> Languages </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Multilingual_typesetting_on_Overleaf_using_polyglossia_and_fontspec" title="Multilingual typesetting on Overleaf using polyglossia and fontspec">Multilingual typesetting on Overleaf using polyglossia and fontspec</a>
+</li><li> <a href="https://www.overleaf.com/learn/Multilingual_typesetting_on_Overleaf_using_babel_and_fontspec" title="Multilingual typesetting on Overleaf using babel and fontspec">Multilingual typesetting on Overleaf using babel and fontspec</a>
+</li><li> <a href="https://www.overleaf.com/learn/International_language_support" title="International language support">International language support</a>
+</li><li> <a href="https://www.overleaf.com/learn/Typesetting_quotations" title="Typesetting quotations">Quotations and quotation marks</a>
+</li><li> <a href="https://www.overleaf.com/learn/Arabic" title="Arabic">Arabic</a>
+</li><li> <a href="https://www.overleaf.com/learn/Chinese" title="Chinese">Chinese</a>
+</li><li> <a href="https://www.overleaf.com/learn/French" title="French">French</a>
+</li><li> <a href="https://www.overleaf.com/learn/German" title="German">German</a>
+</li><li> <a href="https://www.overleaf.com/learn/Greek" title="Greek">Greek</a>
+</li><li> <a href="https://www.overleaf.com/learn/Italian" title="Italian">Italian</a>
+</li><li> <a href="https://www.overleaf.com/learn/Japanese" title="Japanese">Japanese</a>
+</li><li> <a href="https://www.overleaf.com/learn/Korean" title="Korean">Korean</a>
+</li><li> <a href="https://www.overleaf.com/learn/Portuguese" title="Portuguese">Portuguese</a>
+</li><li> <a href="https://www.overleaf.com/learn/Russian" title="Russian">Russian</a>
+</li><li> <a href="https://www.overleaf.com/learn/Spanish" title="Spanish">Spanish</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=7" title="Edit section: Document structure">edit</a>]</span> <span class="mw-headline" id="Document_structure"> Document structure </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Sections_and_chapters" title="Sections and chapters">Sections and chapters</a>
+</li><li> <a href="https://www.overleaf.com/learn/Table_of_contents" title="Table of contents">Table of contents</a>
+</li><li> <a href="https://www.overleaf.com/learn/Cross_referencing_sections_and_equations" title="Cross referencing sections and equations">Cross referencing sections and equations</a>
+</li><li> <a href="https://www.overleaf.com/learn/Indices" title="Indices">Indices</a>
+</li><li> <a href="https://www.overleaf.com/learn/Glossaries" title="Glossaries">Glossaries</a>
+</li><li> <a href="https://www.overleaf.com/learn/Nomenclatures" title="Nomenclatures">Nomenclatures</a>
+</li><li> <a href="https://www.overleaf.com/learn/Management_in_a_large_project" title="Management in a large project">Management in a large project</a>
+</li><li> <a href="https://www.overleaf.com/learn/Multi-file_LaTeX_projects" title="Multi-file LaTeX projects">Multi-file LaTeX projects</a>
+</li><li> <a href="https://www.overleaf.com/learn/Hyperlinks" title="Hyperlinks">Hyperlinks</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=8" title="Edit section: Formatting">edit</a>]</span> <span class="mw-headline" id="Formatting"> Formatting </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Lengths_in_LaTeX" title="Lengths in LaTeX">Lengths in <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></a>
+</li><li> <a href="https://www.overleaf.com/learn/Headers_and_footers" title="Headers and footers">Headers and footers</a>
+</li><li> <a href="https://www.overleaf.com/learn/Page_numbering" title="Page numbering">Page numbering</a>
+</li><li> <a href="https://www.overleaf.com/learn/Paragraph_formatting" title="Paragraph formatting">Paragraph formatting</a>
+</li><li> <a href="https://www.overleaf.com/learn/Line_breaks_and_blank_spaces" title="Line breaks and blank spaces">Line breaks and blank spaces</a>
+</li><li> <a href="https://www.overleaf.com/learn/Text_alignment" title="Text alignment">Text alignment</a>
+</li><li> <a href="https://www.overleaf.com/learn/Page_size_and_margins" title="Page size and margins">Page size and margins</a>
+</li><li> <a href="https://www.overleaf.com/learn/Single_sided_and_double_sided_documents" title="Single sided and double sided documents">Single sided and double sided documents</a>
+</li><li> <a href="https://www.overleaf.com/learn/Multiple_columns" title="Multiple columns">Multiple columns</a>
+</li><li> <a href="https://www.overleaf.com/learn/Counters" title="Counters">Counters</a>
+</li><li> <a href="https://www.overleaf.com/learn/Code_listing" title="Code listing">Code listing</a>
+</li><li> <a href="https://www.overleaf.com/learn/Code_Highlighting_with_minted" title="Code Highlighting with minted">Code Highlighting with minted</a>
+</li><li> <a href="https://www.overleaf.com/learn/Using_colours_in_LaTeX" title="Using colours in LaTeX">Using colours in LaTeX</a>
+</li><li> <a href="https://www.overleaf.com/learn/Footnotes" title="Footnotes">Footnotes</a>
+</li><li> <a href="https://www.overleaf.com/learn/Margin_notes" title="Margin notes">Margin notes</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=9" title="Edit section: Fonts">edit</a>]</span> <span class="mw-headline" id="Fonts"> Fonts </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Font_sizes,_families,_and_styles" title="Font sizes, families, and styles">Font sizes, families, and styles</a>
+</li><li> <a href="https://www.overleaf.com/learn/Font_typefaces" title="Font typefaces">Font typefaces</a>
+</li><li> <a href="https://www.overleaf.com/learn/XeLaTeX" title="XeLaTeX">Supporting modern fonts with <span class="texhtml" style="font-family: &#39;CMU Serif&#39;, cmr10, LMRoman10-Regular, &#39;Times New Roman&#39;, &#39;Nimbus Roman No9 L&#39;, Times, serif;">X<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.075em;">Ǝ</span>L<span style="text-transform: uppercase; font-size: 70%; margin-left: -0.36em; vertical-align: 0.3em; line-height: 0; margin-right: -0.15em;">a</span>T<span style="text-transform: uppercase; margin-left: -0.1667em; vertical-align: -0.5ex; line-height: 0; margin-right: -0.125em;">e</span>X</span></a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=10" title="Edit section: Presentations">edit</a>]</span> <span class="mw-headline" id="Presentations"> Presentations </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Beamer" title="Beamer">Beamer</a>
+</li><li> <a href="https://www.overleaf.com/learn/Powerdot" title="Powerdot">Powerdot</a>
+</li><li> <a href="https://www.overleaf.com/learn/Posters" title="Posters">Posters</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=11" title="Edit section: Commands">edit</a>]</span> <span class="mw-headline" id="Commands"> Commands </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Commands" title="Commands">Commands</a>
+</li><li> <a href="https://www.overleaf.com/learn/Environments" title="Environments">Environments</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=12" title="Edit section: Field specific">edit</a>]</span> <span class="mw-headline" id="Field_specific"> Field specific </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Theorems_and_proofs" title="Theorems and proofs">Theorems and proofs</a>
+</li><li> <a href="https://www.overleaf.com/learn/Chemistry_formulae" title="Chemistry formulae">Chemistry formulae</a>
+</li><li> <a href="https://www.overleaf.com/learn/Feynman_diagrams" title="Feynman diagrams">Feynman diagrams</a>
+</li><li> <a href="https://www.overleaf.com/learn/Molecular_orbital_diagrams" title="Molecular orbital diagrams">Molecular orbital diagrams</a>
+</li><li> <a href="https://www.overleaf.com/learn/Chess_notation" title="Chess notation">Chess notation</a>
+</li><li> <a href="https://www.overleaf.com/learn/Knitting_patterns" title="Knitting patterns">Knitting patterns</a>
+</li><li> <a href="https://www.overleaf.com/learn/CircuiTikz_package" title="CircuiTikz package">CircuiTikz package</a>
+</li><li> <a href="https://www.overleaf.com/learn/Pgfplots_package" title="Pgfplots package">Pgfplots package</a>
+</li><li> <a href="https://www.overleaf.com/learn/Typing_exams_in_LaTeX" title="Typing exams in LaTeX" class="mw-redirect">Typing exams in LaTeX</a>
+</li><li> <a href="https://www.overleaf.com/learn/Knitr" title="Knitr">Knitr</a>
+</li><li> <a href="https://www.overleaf.com/learn/Attribute_Value_Matrices" title="Attribute Value Matrices">Attribute Value Matrices</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=13" title="Edit section: Class files">edit</a>]</span> <span class="mw-headline" id="Class_files"> Class files </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Understanding_packages_and_class_files" title="Understanding packages and class files">Understanding packages and class files</a>
+</li><li> <a href="https://www.overleaf.com/learn/List_of_packages_and_class_files" title="List of packages and class files">List of packages and class files</a>
+</li><li> <a href="https://www.overleaf.com/learn/Writing_your_own_package" title="Writing your own package">Writing your own package</a>
+</li><li> <a href="https://www.overleaf.com/learn/Writing_your_own_class" title="Writing your own class">Writing your own class</a>
+</li><li> <a href="https://www.overleaf.com/learn/Tips" title="Tips">Tips</a>
+</li></ul>
+<h2><span class="editsection">[<a href="https://www.overleaf.com/learn-scripts/index.php?title=Contents&amp;action=edit&amp;section=14" title="Edit section: Advanced TeX/LaTeX">edit</a>]</span> <span class="mw-headline" id="Advanced_TeX.2FLaTeX"> Advanced TeX/LaTeX </span></h2>
+<ul><li> <a href="https://www.overleaf.com/learn/Articles" title="Articles">In-depth technical articles on TeX/LaTeX</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 70/1000000
+Preprocessor generated node count: 94/1000000
+Post-expand include size: 1009/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key learn-mw_:pcache:idhash:1250-0!*!0!!*!*!* and timestamp 20200211130428 -->
+</div></div></div></div><script src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/MathJax.js.下载"></script><div ng-controller="AbTestController" class="ng-scope"></div><footer class="site-footer"><div class="site-footer-content hidden-print"><div class="row"><ul class="col-md-9"><li class="dropdown dropup subdued" dropdown=""><a class="dropdown-toggle" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#" dropdown-toggle="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Select Language" tooltip="Language"><figure class="sprite-icon sprite-icon-lang sprite-icon-en" alt="English"></figure></a><ul class="dropdown-menu" role="menu"><li class="dropdown-header">Language</li><li class="lngOption"><a class="menu-indent" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-en" alt="English"></figure> English</a></li><li class="lngOption"><a class="menu-indent" href="https://cs.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-cs" alt="Czech"></figure> Czech</a></li><li class="lngOption"><a class="menu-indent" href="https://es.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-es" alt="Spanish"></figure> Spanish</a></li><li class="lngOption"><a class="menu-indent" href="https://pt.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-pt" alt="Portuguese"></figure> Portuguese</a></li><li class="lngOption"><a class="menu-indent" href="https://fr.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-fr" alt="French"></figure> French</a></li><li class="lngOption"><a class="menu-indent" href="https://de.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-de" alt="German"></figure> German</a></li><li class="lngOption"><a class="menu-indent" href="https://sv.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-sv" alt="Swedish"></figure> Swedish</a></li><li class="lngOption"><a class="menu-indent" href="https://tr.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-tr" alt="Turkish"></figure> Turkish</a></li><li class="lngOption"><a class="menu-indent" href="https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-it" alt="Italian"></figure> Italian</a></li><li class="lngOption"><a class="menu-indent" href="https://cn.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-zh-CN" alt="Chinese"></figure> Chinese</a></li><li class="lngOption"><a class="menu-indent" href="https://no.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-no" alt="Norwegian"></figure> Norwegian</a></li><li class="lngOption"><a class="menu-indent" href="https://ru.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-ru" alt="Russian"></figure> Russian</a></li><li class="lngOption"><a class="menu-indent" href="https://da.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-da" alt="Danish"></figure> Danish</a></li><li class="lngOption"><a class="menu-indent" href="https://ko.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-ko" alt="Korean"></figure> Korean</a></li><li class="lngOption"><a class="menu-indent" href="https://ja.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes"><figure class="sprite-icon sprite-icon-lang sprite-icon-ja" alt="Japanese"></figure> Japanese</a></li></ul></li><li>© 2020 Overleaf</li><li><a href="https://www.overleaf.com/legal">Privacy and Terms</a></li><li><a class="link-to-tab" href="https://www.overleaf.com/legal#Security">Security</a></li><li><a href="https://www.overleaf.com/contact">Contact Us</a></li><li><a href="https://www.overleaf.com/about">About</a></li><li><a href="https://www.overleaf.com/blog">Blog</a></li></ul><ul class="col-md-3 text-right"><li ng-non-bindable=""><a href="https://twitter.com/overleaf"><i class="fa fa-twitter-square" aria-hidden="true"></i><span class="sr-only">Overleaf on Twitter</span></a></li><li ng-non-bindable=""><a href="https://www.facebook.com/overleaf.editor"><i class="fa fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Overleaf on Facebook</span></a></li><li ng-non-bindable=""><a href="https://www.linkedin.com/company/writelatex-limited"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span class="sr-only">Overleaf on LinkedIn</span></a></li></ul></div></div></footer><script type="text/ng-template" id="contactModalTemplate"><div class="modal-header"><button class="close" type="button" data-dismiss="modal" ng-click="close()" aria-label="Close"><span aria-hidden="true">&times;</span></button><h3>Contact Us</h3></div><div class="modal-body contact-us-modal"><div ng-cloak ng-controller="ContactFormController" ng-init="showContactFormSuggestions = true; inbox = 'support'"><form name="contactForm" role="form" aria-label="Contact Us"><span ng-show="sent == false"><div class="alert alert-danger" aria-live="polite" ng-show="error">Sorry, something went wrong</div><label>Subject</label><div class="form-group"><input class="field text medium span8 form-control" aria-label="Subject" name="subject" required autocomplete="off" ng-model="form.subject" ng-model-options="{ updateOn: 'default blur', debounce: {'default': 350, 'blur': 0} }" maxlength="255"></div><div class="contact-suggestions" ng-show="suggestions.length &gt; 0"><p class="contact-suggestion-label" aria-live="polite">Have you checked our <a href='/learn/kb' target='_blank'>knowledge base</a>?</p><ul class="contact-suggestion-list" aria-role="region" aria-label="Help articles matching your subject"><li ng-repeat="suggestion in suggestions"><a class="contact-suggestion-list-item" ng-href="{{ suggestion.url }}" ng-click="clickSuggestionLink(suggestion.url);" target="_blank"><span ng-bind-html="suggestion.name"></span><i class="fa fa-angle-right" aria-hidden="true"></i></a></li></ul></div><label class="desc" ng-show="''.length &lt; 1">Email</label><div class="form-group" ng-show="''.length &lt; 1"><input class="field text medium span8 form-control" aria-label="Email" name="email" required ng-model="form.email" ng-init="form.email = ''" type="email" spellcheck="false" value="" maxlength="255"></div><label class="desc" id="title12">Affected project URL (Optional)</label><div class="form-group"><input class="field text medium span8 form-control" aria-label="Affected project URL Optional" ng-model="form.project_url"></div><label class="desc">Message</label><div class="form-group"><textarea class="field text medium span8 form-control" aria-label="Message" name="body" required ng-model="form.message" type="text" value=""></textarea></div><div class="form-group text-center"><input class="btn-success btn btn-lg" aria-label="Contact Us" type="submit" ng-disabled="contactForm.$invalid || sending" ng-click="contactUs()" value="Contact Us"></div></span></form><span ng-show="sent"><p>Your contact request has been sent. It will be reviewed by our support staff and you will receive a reply via email.</p></span></div></div></script><script type="text/ng-template" id="v1ProjectTooltipTemplate"><span>This project is from Overleaf v1 and has not yet been automatically or manually imported to v2.</span></script><script type="text/ng-template" id="v1TagTooltipTemplate"><span>This folder/tag is from Overleaf v1. Once these projects are moved to v2 the tag will also move.</span></script><script src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/libraries-935f3889fe24c43e766c.js.下载"></script><script src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/main-6cfa6a0e1fd85eafd565.js.下载"></script><script type="text/javascript">//- Look for bundle
+var cdnBlocked = typeof Frontend === 'undefined'
+//- Prevent loops
+var noCdnAlreadyInUrl = window.location.href.indexOf("nocdn=true") != -1
+if (cdnBlocked && !noCdnAlreadyInUrl && navigator.userAgent.indexOf("Googlebot") == -1) {
+	//- Set query param, server will not set CDN url
+	window.location.search += "&nocdn=true";
+}</script><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe src="./Learn LaTeX in 30 minutes - Overleaf, Online LaTeX Editor_files/anchor.html" width="256" height="60" role="presentation" name="a-ll3lkyekl9t4" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div></body></html>
